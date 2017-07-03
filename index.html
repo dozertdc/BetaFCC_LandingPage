@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="logo">
+            <img id="header-img" src="img/codehabitlogo.jpg" alt="Code Habit Logo" />
+          </div>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Store</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section id="podcast">
+        <iframe src="https://widget.spreaker.com/player?show_id=2508852&theme=light&playlist=false&playlist-continuous=false&autoplay=false&live-autoplay=false&chapters-image=true&cover_image_url=https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/f7eb7acd6d588b581490ef0724414791.jpg" width="100%" height="200px" frameborder="0"></iframe>
+      </section>
+    
+    
+    <section id="subscribe">
+      <h2>Don't Miss Anything!</h2>
+      <form id="form" action="">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+        <input id="submit" type="submit" value="Get Smart!" class="btn"></input>
+      </form>
+    </section>
+    
+    
+    
+    <div class="container">
+      <section id="features">
+          <div class="row">
+            <div class="description col-lg-4 col-md-4">
+                <h2>Quality Instruction</h2>
+                <p>At Code Habit we aim to give you the most relevant 
+                information to improve your coding. You cannot get good at anything 
+                without the right kind of habits, and we want to teach you how to build your coding 
+                habit so you can have fun improving rapidly. </p>
+            </div>
+            <div class="description col-lg-4 col-md-4">
+                <h2>Entertaining Material</h2>
+                <p>We take a dry topic and turn it into an exciting experience.</p>
+            </div>
+            <div class="description col-lg-4 col-md-4">
+                <h2>Podcast</h2>
+                <p>Check out our podcast for the newest information on building your coding habit.</p>
+            </div>
+        </div>
+      </section>
+      
+      
+      <section id="pricing">
+        <div id="classes">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div id="front-end">
+                      <div class="course">
+                        Front-End Development Course
+                      </div>
+                      <h2>$50</h2>
+                      <ol class="topics">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                      </ol>
+                      <button class="btn">Select</button>
+                    </div>
+                </div>
+            <div class="col-lg-4 col-md-4">
+                <div id="intro">
+                  <div class="course">
+                    Intro to Programming Course
+                  </div>
+                  <h2>$30</h2>
+                  <ol class="topics">
+                    <li>Variables</li>
+                    <li>Conditionals</li>
+                    <li>Loops</li>
+                    <li>Objects</li>
+                  </ol>
+                  <button class="btn">Select</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div id="full-stack">
+                  <div class="course">
+                    Full-Stack Development Course
+                  </div>
+                  <h2>$100</h2>
+                  <ol class="topics">
+                    <li>Front-end Deep Dive</li>
+                    <li>Databases (Relational, NoSQL)</li>
+                    <li>Server Side Scripting</li>
+                    <li>APIs</li>
+                  </ol>
+                  <button class="btn">Select</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2017, {Code}{Habit}</span>
+      </footer>
+    </div>
+</body>
+</html>

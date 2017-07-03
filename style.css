@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    position: fixed;
+}
+
+#podcast {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#subscribe {
+    text-align: center;
+}
+
+#email {
+    width:200px;
+}
+
+#features {
+    text-align: justify;
+}
+
+.description {
+    padding: 25px;
+}
+
+#front-end, #intro, #full-stack {
+    padding: 20px;
+    border: 5px solid grey;
+    text-align: center;
+}
+
+.course {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.topics {
+    text-align: left;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    padding: 10px;
+    margin: auto auto;
+}
